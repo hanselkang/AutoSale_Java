@@ -11,6 +11,7 @@ public class CustomerTest {
     Vehicle vehicle2;
     @Before
     public void before(){
+
         customer1 = new Customer(50000);
         vehicle1 = new Vehicle("VW","Golf",12000,VehicleType.CAR,"Red")   ;
         vehicle2 = new Vehicle("Ford","Fiest", 10000, VehicleType.VAN, "Blue");
@@ -30,10 +31,10 @@ public class CustomerTest {
         assertEquals(2,customer1.getNumberOfVehicles());
     }
 
-    @Test
-    public void customerAffordVehicle() {
-        assertEquals(true, customer1.affordVehicle(vehicle2));
-    }
+//    @Test
+//    public void customerAffordVehicle() {
+//        assertEquals(true, customer1.affordVehicle(vehicle2));
+//    }
 
     @Test
     public void customerCanBuyVehicle() {

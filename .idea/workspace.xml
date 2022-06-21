@@ -4,27 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af31e41d-addb-40c5-87f9-82c36f23929c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Dealership.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/VehicleType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/components/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/components/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/components/Gearbox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/components/Tyre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CustomerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DealershipTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/VehicleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/components/EngineTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/components/GearboxTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/components/TyreTest.java" afterDir="false" />
+    <list default="true" id="af31e41d-addb-40c5-87f9-82c36f23929c" name="Changes" comment="MVP">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CustomerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +56,7 @@
       <recent name="components" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CustomerTest.customerAffordVehicle">
+  <component name="RunManager" selected="JUnit.CustomerTest.customerCanBuyVehicle">
     <configuration name="CustomerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AutoSale" />
       <option name="PACKAGE_NAME" value="" />
@@ -93,19 +76,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DealershipTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomerTest.customerCanBuyVehicle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AutoSale" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DealershipTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="CustomerTest" />
+      <option name="METHOD_NAME" value="customerCanBuyVehicle" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VehicleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DealershipTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AutoSale" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="VehicleTest" />
+      <option name="MAIN_CLASS_NAME" value="DealershipTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -123,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CustomerTest.customerCanBuyVehicle" />
         <item itemvalue="JUnit.CustomerTest.customerAffordVehicle" />
         <item itemvalue="JUnit.CustomerTest" />
         <item itemvalue="JUnit.DealershipTest" />
         <item itemvalue="JUnit.VehicleTest.hasColour" />
-        <item itemvalue="JUnit.VehicleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -140,6 +124,14 @@
       <option name="presentableId" value="Default" />
       <updated>1655816797339</updated>
     </task>
+    <task id="LOCAL-00001" summary="MVP">
+      <created>1655825219872</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655825219873</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -153,15 +145,8 @@
       </map>
     </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Customer.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="MVP" />
+    <option name="LAST_COMMIT_MESSAGE" value="MVP" />
   </component>
 </project>

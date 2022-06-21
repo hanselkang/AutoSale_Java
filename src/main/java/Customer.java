@@ -25,19 +25,12 @@ public class Customer {
     }
 
 
-    public boolean affordVehicle(Vehicle vehicle) {
-        if (vehicle.getPrice() <= customer.getMoney()){
-            return true;
-        } else {
-            return false;
-        }
-    }
-
     public void buyVehicle(Vehicle vehicle) {
-
-        if (affordVehicle(vehicle)==true) {
-            money -= vehicle.getPrice();
+        if (vehicle.getPrice() <= this.money) {
+            this.money -= vehicle.getPrice();
             vehicles.add(vehicle);
-     }
+        }
+
+
     }
 }
