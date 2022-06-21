@@ -25,10 +25,11 @@ public class Customer {
     }
 
 
-    public void buyVehicle(Vehicle vehicle) {
+    public void buyVehicle(Vehicle vehicle, Dealership dealership) {
         if (vehicle.getPrice() <= this.money) {
             this.money -= vehicle.getPrice();
             vehicles.add(vehicle);
+            dealership.money += vehicle.getPrice();
         }
 
 

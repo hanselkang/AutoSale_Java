@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class Dealership {
     private String name;
-    private double money;
+    double money;
     private ArrayList<Vehicle> DealershipVehicles;
 
     public Dealership(String name, double money) {
